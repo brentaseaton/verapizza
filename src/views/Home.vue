@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <v-toolbar fixed flat dark prominent class="transparent">
-      <v-img src="exlogo.png" max-height="100" max-width="250" class="mt-4 ml-4 pa-4"></v-img>
+    <!-- <v-toolbar fixed flat dark prominent class="transparent">
+      <v-img src="exlogo.png" contain max-height="100" max-width="250" class="mt-4 ml-4 pa-4"></v-img>
 
       <v-spacer></v-spacer>
 
@@ -20,10 +20,21 @@
           </v-list-tile>
         </v-list>
       </v-menu>
-    </v-toolbar>
+    </v-toolbar> -->
 
-    <v-carousel hide-controls hide-delimiters height="800">
-      <v-carousel-item src="pizza_ph.jpg"></v-carousel-item>
+    <v-carousel hide-controls hide-delimiters height="1000">
+      <v-carousel-item src="pizza_ph.jpg">
+        <v-container bg fill-height grid-list-md text-xs-center>
+          <v-layout row wrap align-center justify-center>
+            <v-flex>
+              <v-img src="verawhite.png" contain max-height="250" max-width="400" style="margin: auto; display: block"></v-img><br/><br/><br/><br/><br/>
+              <h1 class="white--text display-3"><b>Coming Soon!</b></h1><br/>
+              <h3 class="white--text display-1">Authentic Wood Oven Pizza @ the Outspoken Patio</h3><br/>
+              <h4 class="white--text headline">Please direct any inquiries to verapizzassm@gmail.com</h4>
+            </v-flex> 
+          </v-layout>
+        </v-container>
+      </v-carousel-item>
     </v-carousel>
   </div>
 </template>
