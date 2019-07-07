@@ -22,17 +22,17 @@
       </v-menu>
     </v-toolbar> -->
 
-    <v-carousel hide-controls hide-delimiters height="1000">
+    <v-carousel hide-controls hide-delimiters height="1200">
       <v-carousel-item src="pizza_ph.jpg">
         <v-container bg fill-height grid-list-md text-xs-center>
           <v-layout row wrap align-center justify-center>
             <v-flex>
-              <v-img src="verawhite.png" contain max-height="250" max-width="400" style="margin: auto; display: block"></v-img><br/><br/>
+              <v-img src="verawhite.png" contain max-height="250" max-width="400" style="margin: auto; display: block; margin-top: -100px"></v-img><br/><br/>
               <a href="https://fb.me/verapizzassm"><v-icon style="font-size: 35px">fab fa-facebook fa-4x</v-icon></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.instagram.com/verapizzassm/"><v-icon style="font-size: 35px">fab fa-instagram fa-4x</v-icon></a><br/><br/><br/>
-              <h1 class="white--text display-3"><b>Coming Soon!</b></h1><br/>
-              <h3 class="white--text display-1">Authentic Wood Oven Pizza @ the Outspoken Patio</h3><br/>
-              <h4 class="white--text headline">Please direct any inquiries to verapizzassm@gmail.com</h4><br/>
+              <h1 class="white--text headline"><b>Authentic Wood Oven Pizza @ Outspoken Brewing</b></h1><br/>
+              <h3 class="white--text title">Follow us on social media for schedule updates</h3><br/>
+              <emailForm />
             </v-flex> 
           </v-layout>
         </v-container>
@@ -42,8 +42,12 @@
 </template>
 
 <script>
+import emailForm from '@/components/emailForm'
 
 export default {
+  components: {
+    emailForm
+  },
   data() {
     return {
       menuItems: [
