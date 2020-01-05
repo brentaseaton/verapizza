@@ -30,8 +30,7 @@
               <v-img src="verawhite.png" contain max-height="250" max-width="400" style="margin: auto; display: block; margin-top: -100px"></v-img><br/><br/>
               <a href="https://fb.me/verapizzassm"><v-icon style="font-size: 35px">fab fa-facebook fa-4x</v-icon></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="https://www.instagram.com/verapizzassm/"><v-icon style="font-size: 35px">fab fa-instagram fa-4x</v-icon></a><br/><br/><br/>
-              <h1 class="white--text headline"><b>Authentic Wood Oven Pizza @ Outspoken Brewing</b></h1><br/>
-              <h3 class="white--text title">Follow us on social media for schedule updates</h3><br/>
+              <h1 class="white--text headline"><b>Follow us on social media for public schedule updates.</b></h1><br/>
               <emailForm />
             </v-flex> 
           </v-layout>

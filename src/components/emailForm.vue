@@ -5,7 +5,7 @@
         <v-flex xs12 md6 class="text-xs-center">
           <v-card class="ma-4" color="rgb(255, 0, 0, 0.2)">
             <v-card-title class="justify-center white--text">
-              <h4 class="white--text title">Want Vera Pizza at your Event? Fill out the form below.</h4>
+              <h4 class="white--text title">Want Vera Pizza at your next Event? Fill out the form below.</h4>
             </v-card-title>
             <v-card-text>
               <v-form class="px-3" ref="form" id="myForm">
